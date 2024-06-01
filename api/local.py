@@ -12,7 +12,6 @@ def generate_response_local(model: str, query: str) -> str:
         ],
         "stream": False,
         "options": {
-            "temperature": 0,
             "max_tokens": 50
         }
     }
